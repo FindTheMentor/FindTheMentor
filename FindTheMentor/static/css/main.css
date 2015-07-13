@@ -16,6 +16,9 @@ html {
     line-height: 1.4;
 }
 
+.jumbotron h1{
+	color:rgba(200,50,255,1);
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301

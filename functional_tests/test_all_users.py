@@ -1,8 +1,8 @@
 from selenium import webdriver
 from django.core.urlresolvers import reverse
-from django.contrib.staticfiles.testing import LiveServerTestCase
+from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 
-class HomeNewVisitorTest(LiveServerTestCase): 
+class HomeNewVisitorTest(StaticLiveServerTestCase): 
  
     def setUp(self):
         self.browser = webdriver.Firefox()
@@ -10,7 +10,10 @@ class HomeNewVisitorTest(LiveServerTestCase):
  
     def tearDown(self):
         self.browser.quit()
- 
+	
+    def get_full_url(self, namespace):
+        return self.live_server_url + reverse(namespace) 
+
     def test_home_title(self):
         self.browser.get(self.get_full_url("home"))
         self.assertIn("Find the Mentor", self.browser.title)
