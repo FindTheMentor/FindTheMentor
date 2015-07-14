@@ -114,3 +114,15 @@ STATICFILES_DIRS=(
 	os.path.join(BASE_DIR,"static"),
 )
 STATIC_URL = '/static/'
+
+from django.utils.translation import ugettext_lazy as _
+LANGUAGES = (
+    ('en', _('English')),
+    ('id', _('Indonesian')),
+)
+
+LANGUAGE_CODE = 'en-us'
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
+)
