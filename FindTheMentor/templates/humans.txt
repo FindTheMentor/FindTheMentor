@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    alvian -- leader -- @alviandk
 
 # THANKS
 
-    <name>
+    FIndTheMentor Team
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    	CSS3, HTML5 Boilerplate
+    	Django
+	Twitter Bootstrap
+	Apache Server Configs, jQuery, Modernizr, Normalize.css
