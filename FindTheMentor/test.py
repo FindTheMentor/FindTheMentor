@@ -6,7 +6,7 @@ from django.core.urlresolvers import reverse
 class TestHomePage(TestCase):
  
     def test_uses_index_template(self):
-        activate('en')
+        activate('en-us')
 	response = self.client.get(reverse("home"))
         self.assertTemplateUsed(response, "FindTheMentor/index.html")
  
