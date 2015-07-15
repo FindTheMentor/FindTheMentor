@@ -1,1 +1,4 @@
--r base.txt
+Django==1.8
+pytz==2015.4
+selenium==2.46.0
+wheel==0.24.0
