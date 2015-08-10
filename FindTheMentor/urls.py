@@ -20,7 +20,7 @@ from .views import home, home_files
 
 urlpatterns = [
    url(r'^(?P<filename>(robots.txt)|(humans.txt))$',
-        home_files, name='home-files'),
+   home_files, name='home-files'),
 ]
 
 urlpatterns += i18n_patterns (
