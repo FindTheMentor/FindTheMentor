@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-10 09:41+0700\n"
+"POT-Creation-Date: 2015-08-10 16:03+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,5 +31,9 @@ msgid "Welcome to"
 msgstr "Selamat datang di"
 
 #: FindTheMentor/templates/FindTheMentor/index.html:29
-msgid " is a web of mentor. </br>"
-msgstr "adalah sebuah web mentor </br>"
+msgid " is a simple Task manager that helps you organize your daylife."
+msgstr " adalah pengelola tugas sederhana yang membantu mengatur tugas harian Anda."
+
+#: FindTheMentor/templates/FindTheMentor/index.html:30
+msgid " Learn more "
+msgstr "Pelajari Lagi"

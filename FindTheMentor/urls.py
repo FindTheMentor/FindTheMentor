@@ -21,10 +21,9 @@ from .views import home, home_files
 urlpatterns = [
    url(r'^(?P<filename>(robots.txt)|(humans.txt))$',
    home_files, name='home-files'),
+   url(r'^admin/', include(admin.site.urls)),
+   url(r'^$', home, name='home'),
 ]
 
-urlpatterns += i18n_patterns (
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', home, name='home'),
-)
+
 

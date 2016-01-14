@@ -7,7 +7,7 @@
 {% block content %}
    <div class="jumbotron">
     	<div class="container">
-		<div class="col-md-4">
+<!--		<div class="col-md-4">
       			<h2 id="local-date">{{today}}</h2>
       			<p>This is the time using your local information </p>
       			<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -24,10 +24,10 @@
     			<p> New York: <span id="time-ny"> 
            {{now|timezone:"America/New_York"|time:"H:i"}}</span></p>
     			<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-		</div>
-        	<h1>{% trans "Welcome to"%} Find the Mentor</h1>
-        	<p>Find the Mentor {% blocktrans %} is a web of mentor. </br>{% endblocktrans %}</p>
-        	<p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+		</div>  -->
+        	<h1>{% trans "Welcome to"%} Taskbuster</h1>
+        	<p>Taskbuster {% blocktrans %} is a simple Task manager that helps you organize your daylife.{% endblocktrans %}</p>
+        	<p><a class="btn btn-primary btn-lg" role="button">{% blocktrans %} Learn more {% endblocktrans %} &raquo;</a></p>
       	</div>
    </div>
 
